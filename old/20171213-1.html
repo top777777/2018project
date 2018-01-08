@@ -1,0 +1,159 @@
+<form action="http://heem.net/fastcampus/formtest/" method="POST">
+    <legend>양식 제목</legend>
+
+    <fieldset>
+        <label for="userid">아이디</label>
+        <input type="text" id="userid" name="userid">
+    </fieldset>
+
+    <fieldset>
+        <label for="useremail">이메일</label>
+        <input type="email" id="useremail" name="useremail" >
+    </fieldset>
+
+    <fieldset>
+        <label for="usereblog">블로그주소</label>
+        <input type="url" id="usereblog" name="usereblog" >
+    </fieldset>
+
+    <fieldset>
+        <label for="useretel">전화번호</label>
+        <input type="tel" id="useretel" name="useretel" >
+    </fieldset>
+
+    <fieldset>
+        <label for="userage">나이</label>
+        <input
+            type="number"
+            min="19"
+            max="100"
+            step="1"
+
+            id="userage"
+            name="userage"
+
+
+        >
+    </fieldset>
+
+    <fieldset>
+        <label for="birthday">생년월일</label>
+        <input
+            type="date"
+            id="birthday"
+            name="birthday"
+
+
+        >
+    </fieldset>
+
+    <fieldset>
+        <label for="birthtime">생시</label>
+        <input
+            type="time"
+            id="birthtime"
+            name="birthtime"
+
+
+        >
+    </fieldset>
+
+    <fieldset>
+        <label for="birthdatetime">생년월일시</label>
+        <input
+            type="week"
+            id="birthdatetime"
+            name="birthdatetime"
+
+
+        >
+    </fieldset>
+
+    <fieldset>
+        <label for="usercolor">좋아하는색상</label>
+        <input type="color" id="usercolor" name="usercolor" >
+    </fieldset>
+
+    <fieldset>
+        <label for="budget">예산</label>
+        <input
+            type="range"
+            min="10"
+            max="1000"
+            step="10"
+
+            id="budget"
+            name="budget"
+            required
+        >
+    </fieldset>
+
+    <fieldset>
+        <label for="password">패스워드</label>
+        <input type="password" id="password" name="password">
+    </fieldset>
+
+    <fieldset>
+        <label for="useraddress">주소</label>
+        <input type="text" id="useraddress" name="useraddress">
+        <button type="button">우편번호찾기</button>
+    </fieldset>
+
+    <fieldset>
+        <label for="userfile">파일업로드</label>
+        <input type="file" id="userfile" name="userfile">
+    </fieldset>
+
+    <fieldset>
+        <label for="agree">동의</label>
+        <input type="checkbox" id="agree" name="agree">
+    </fieldset>
+
+    <fieldset>
+        <label>
+            동의합니다
+            <input type="checkbox" name="agree2">
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <label for="hobby1">취미1</label>
+        <input type="radio" id="hobby1" name="hobby" value="취미1">
+
+        <label for="hobby2">취미2</label>
+        <input type="radio" id="hobby2" name="hobby" value="취미2">
+
+        <label for="hobby3">취미3</label>
+        <input type="radio" id="hobby3" name="hobby" value="취미3">
+
+        <label>
+            취미4
+            <input type="radio" name="hobby" value="취미4">
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <textarea
+            name="description"
+            cols="30"
+            rows="10"
+            wrap="hard"
+        ></textarea>
+    </fieldset>
+
+    <fieldset>
+        <select name="job">
+            <option value="">선택해주세요</option>
+            <option value="designer">디자이너</option>
+            <option value="dev." selected>개발자</option>
+            <option value="etc" disabled>기타</option>
+        </select>
+    </fieldset>
+
+
+    <fieldset>
+        <input type="submit" name="" value="가입">
+        <button type="submit">회원가입</button>
+    </fieldset>
+
+</form>
